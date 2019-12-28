@@ -1,8 +1,9 @@
-class HelloWorld	{
+public class HelloWorld implements HelloWorldInt	{
 
-	public static void main (String args[])	{
-	
-		System.out.println ("Hello World!");
-		
+	public void print ()	{
+		System.out.println("Hey you!");
 	}
+	
 }
+
+	
